@@ -1,0 +1,32 @@
+﻿  UIcpp.cpp
+  Main.cpp
+c:\users\marina\documents\visual studio 2015\projects\game\game\engine.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Cow.cpp
+  Farm.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Timer.cpp
+  Field.cpp
+  Engine.cpp
+Engine.obj : error LNK2005: "public: __thiscall Cow::Cow(void)" (??0Cow@@QAE@XZ) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: __thiscall Cow::~Cow(void)" (??1Cow@@QAE@XZ) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: void __thiscall Engine::ToString(void)" (?ToString@Engine@@QAEXXZ) already defined in Main.obj
+Engine.obj : error LNK2005: "private: void __thiscall Engine::addCows(void)" (?addCows@Engine@@AAEXXZ) already defined in Main.obj
+Engine.obj : error LNK2005: "public: bool __thiscall Cow::ageIncrement(int)" (?ageIncrement@Cow@@QAE_NH@Z) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: bool __thiscall Cow::decreseEnergy(void)" (?decreseEnergy@Cow@@QAE_NXZ) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: void __thiscall Cow::extractNeighbours(class Field *)" (?extractNeighbours@Cow@@QAEXPAVField@@@Z) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: void __thiscall Cow::extractNeighboursAdvanced(class Field *)" (?extractNeighboursAdvanced@Cow@@QAEXPAVField@@@Z) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: void __thiscall Cow::gaze(void)" (?gaze@Cow@@QAEXXZ) already defined in Cow.obj
+Engine.obj : error LNK2005: "public: void __thiscall Engine::living(int)" (?living@Engine@@QAEXH@Z) already defined in Main.obj
+Engine.obj : error LNK2005: "public: void __thiscall Cow::moveTo(void)" (?moveTo@Cow@@QAEXXZ) already defined in Cow.obj
+Engine.obj : error LNK2005: "private: void __thiscall Engine::putOnfield(void)" (?putOnfield@Engine@@AAEXXZ) already defined in Main.obj
+Engine.obj : error LNK2005: "public: void __thiscall Engine::run(int,int,int)" (?run@Engine@@QAEXHHH@Z) already defined in Main.obj
+Engine.obj : error LNK2005: "public: void __thiscall Cow::setCurrentCell(class Cell *)" (?setCurrentCell@Cow@@QAEXPAVCell@@@Z) already defined in Cow.obj
+Engine.obj : error LNK2005: "int simSteps" (?simSteps@@3HA) already defined in Main.obj
+Engine.obj : error LNK2005: "class Field * fieldOfWorld" (?fieldOfWorld@@3PAVField@@A) already defined in Main.obj
+Engine.obj : error LNK2005: "class std::vector<class Cow *,class std::allocator<class Cow *> > cows" (?cows@@3V?$vector@PAVCow@@V?$allocator@PAVCow@@@std@@@std@@A) already defined in Main.obj
+Engine.obj : error LNK2005: "class std::vector<class Cow *,class std::allocator<class Cow *> > cowsOnField" (?cowsOnField@@3V?$vector@PAVCow@@V?$allocator@PAVCow@@@std@@@std@@A) already defined in Main.obj
+Engine.obj : error LNK2005: "class Farm * farm" (?farm@@3PAVFarm@@A) already defined in Main.obj
+C:\Users\Marina\documents\visual studio 2015\Projects\Game\Debug\Game.exe : fatal error LNK1169: one or more multiply defined symbols found
